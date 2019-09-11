@@ -1,0 +1,18 @@
+.color-letra {
+    text-decoration: none;
+    color: white;
+}
+
+.color-letra:hover {
+    color: black;
+}
+
+.boton-nuevo-medico:hover,
+.boton-nuevo-paciente:hover {
+    cursor: pointer;
+    background-color: cornflowerblue!important;
+}
+
+.cambiar-imagen:hover {
+    cursor: pointer !important;
+}
