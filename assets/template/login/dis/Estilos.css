@@ -1,0 +1,32 @@
+.main-header {
+    /*background: url("../images/antes_despues.jpg");*/
+    background-size: cover;
+    background-position: center;
+    color: black;
+    min-height: 700px;
+}
+
+.body {
+    background-color: #ffc107;
+}
+
+.logo {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.text-decription {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.form-control {
+    background: transparent;
+    color: rgb(0, 0, 0) !important;
+}
+
+a.fab {
+    color: red;
+    font-size: 30px;
+    margin: 0px 10px;
+}

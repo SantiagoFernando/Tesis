@@ -1,0 +1,56 @@
+.body {
+    background: url("../images/antes_despues.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    min-height: 700px;
+    /*background-color: #ffc107;*/
+}
+
+form {
+    width: 25%;
+    border: 2px solid rgb(120, 34, 233);
+    /*el auto es par centrar el formulario*/
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid green;
+}
+
+
+/*Tamaño fijo en la caja de texto*/
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    margin-bottom: 0px;
+    background: rgb(33, 4, 102);
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: blue;
+    cursor: pointer;
+}
